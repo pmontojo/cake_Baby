@@ -1,0 +1,180 @@
+
+.recipe {
+
+	border: 1px solid grey;
+
+}
+
+/*.myIngredients{
+	-webkit-column-count:6;
+	column-count:6;
+	column-gap:2px;
+position: relative;
+ float: left;
+  
+
+}*/
+
+.jumbotron {
+        margin: 60px 0;
+       	text-align: center;
+        color: grey;
+        background-color: #E6E6E6;
+      }
+.jumbotron h2{
+        margin: 30px 0;
+        text-align: center;
+        color: orange;
+        background-color: #E6E6E6;
+      }
+  
+      h3{
+        font-family: 'Indie Flower', cursive;
+      }
+         h1{
+        font-family: 'Indie Flower', cursive;
+        font-style:italic;
+      }
+      h2{
+        font-family: 'Poiret One', cursive;
+        
+      }
+
+      .jumbotron2 {
+        margin: 60px 0;
+        font-style:bold;
+
+        text-align: center;
+        color: orange;
+        background-color: white;
+      }
+
+ .supplier{
+ 		/*font:oblique verdana 120% cursive; */
+    font-family: 'Indie Flower', cursive;
+    font-style:italic;
+ 		border-style: solid;
+    	border-color:#B6B6B4;
+ 		color:#CEF6EC;
+ 		background-color:#F5A9D0;
+ 		border-radius:10px;
+ 	}
+
+/* .make-column{
+  position: relative;
+  min-height: 1px;
+    float: left;
+    width:29px;
+  }*/
+
+
+ 	
+ }
+
+body {
+        padding-top: 20px;
+        padding-bottom: 40px;
+      }
+
+
+      .logo{
+      	text-align:center;
+      	animation:logo 5s;
+      	-webkit-animation:logo 5s;
+      }
+
+      #boton{
+      	possition: relative;
+      	animation:boton 5s infinite;
+      	-webkit-animation:boton 5s infinite;
+      }
+
+       @keyframes logo { 
+			0%   {left: 0px; transform: rotate(0deg);}
+			25%  {left: 20px; transform: rotate(10deg);}
+			75%  {left: 10px; transform: rotate(15deg);}
+			100% {left: 5px; transform: rotate(0deg);}
+        }
+
+      @-webkit-keyframes logo { 
+			0%   {left: 0px; transform: rotate(0deg);}
+			25%  {left: 20px; transform: rotate(10deg);}
+			75%  {left: 10px; transform: rotate(15deg);}
+			100% {left: 5px; transform: rotate(0deg);}
+        }
+
+       @keyframes boton {
+  		  0%   {font-size:24px; transform: translate(2px, 1px) rotate(0deg);}
+   		  10%   {font-size:22px;transform: translate(-1px, -2px) rotate(-1deg); }
+		  20% {font-size:22px;transform: translate(-3px, 0px) rotate(1deg); }
+   		 25%  {font-size: 21px;}
+   		 30% { font-size: 21px;-webkit-transform: translate(0px, 2px) rotate(0deg); }
+   		 40% { font-size: 20px;-webkit-transform: translate(1px, -1px) rotate(1deg); }
+    	 50%  {font-size: 20px; -webkit-transform: translate(-1px, 2px) rotate(-1deg);}
+    	 60% { font-size: 21px;-webkit-transform: translate(-3px, 1px) rotate(0deg); }
+		70% { font-size: 21px; -webkit-transform: translate(2px, 1px) rotate(-1deg); }
+		80% { font-size: 22px;-webkit-transform: translate(-1px, -1px) rotate(1deg); }
+		90% { font-size: 22px;-webkit-transform: translate(2px, 2px) rotate(0deg); }
+   		 100% {font-size: 24px;-webkit-transform: translate(1px, -2px) rotate(-1deg);}
+   	 }
+	
+	  @-webkit-keyframes boton {
+  		/*  0%   {font-size:24px; transform: translate(2px, 1px) rotate(0deg);}
+   		  10%   {transform: translate(-1px, -2px) rotate(-1deg); }
+		  20% {transform: translate(-3px, 0px) rotate(1deg); }
+   		 25%  {font-size: 20px;}
+   		 30% { -webkit-transform: translate(0px, 2px) rotate(0deg); }
+   		 40% { -webkit-transform: translate(1px, -1px) rotate(1deg); }
+    	 50%  {font-size: 20px; -webkit-transform: translate(-1px, 2px) rotate(-1deg);}
+    	 60% { -webkit-transform: translate(-3px, 1px) rotate(0deg); }
+	70% { -webkit-transform: translate(2px, 1px) rotate(-1deg); }
+	80% { -webkit-transform: translate(-1px, -1px) rotate(1deg); }
+	90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
+   		 100% {font-size: 24px;-webkit-transform: translate(1px, -2px) rotate(-1deg);}*/
+   		 0%   {font-size:24px; transform: translate(2px, 1px) rotate(0deg);}
+   		  10%   {font-size:22px;transform: translate(-1px, -2px) rotate(-1deg); }
+		  20% {font-size:22px;transform: translate(-3px, 0px) rotate(1deg); }
+   		 25%  {font-size: 21px;}
+   		 30% { font-size: 21px;-webkit-transform: translate(0px, 2px) rotate(0deg); }
+   		 40% { font-size: 20px;-webkit-transform: translate(1px, -1px) rotate(1deg); }
+    	 50%  {font-size: 20px; -webkit-transform: translate(-1px, 2px) rotate(-1deg);}
+    	 60% { font-size: 21px;-webkit-transform: translate(-3px, 1px) rotate(0deg); }
+		70% { font-size: 21px; -webkit-transform: translate(2px, 1px) rotate(-1deg); }
+		80% { font-size: 22px;-webkit-transform: translate(-1px, -1px) rotate(1deg); }
+		90% { font-size: 22px;-webkit-transform: translate(2px, 2px) rotate(0deg); }
+   		100% {font-size: 24px;-webkit-transform: translate(1px, -2px) rotate(-1deg);}
+   	 }
+
+	/*50% { -webkit-transform: translate(-1px, 2px) rotate(-1deg); }
+	
+	100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
+		}*/
+
+   /* @-webkit-keyframes boton{
+ 		 0%   {background: red; font-size:24px;}
+   		 25%  {background: yellow; font-size: 20px;}
+    	 50%  {background: blue;font-size: 20px;}
+   		 100% {background: green;font-size: 24px;}*/
+
+   /*		 @-webkit-keyframes boton{
+   		 	0%   {background: red; font-size:24px; transform: translate(2px, 1px) rotate(0deg);}
+   		  10%   {transform: translate(-1px, -2px) rotate(-1deg); }
+		  20% {transform: translate(-3px, 0px) rotate(1deg); }
+   		 25%  {background: yellow; font-size: 20px;}
+   		 30% { -webkit-transform: translate(0px, 2px) rotate(0deg); }
+   		 40% { -webkit-transform: translate(1px, -1px) rotate(1deg); }
+    	 50%  {background: blue;font-size: 20px;}
+    	 60% { -webkit-transform: translate(-3px, 1px) rotate(0deg); }
+	70% { -webkit-transform: translate(2px, 1px) rotate(-1deg); }
+	80% { -webkit-transform: translate(-1px, -1px) rotate(1deg); }
+	90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
+   		 100% {background: green;font-size: 24px;}
+		}*/
+
+/* Standard syntax */
+
+
+       hr{
+        /*border-color:#357EC7;*/
+        border-color:#B6B6B4;
+      }
